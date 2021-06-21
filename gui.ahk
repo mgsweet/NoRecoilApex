@@ -31,7 +31,7 @@ Gui Add, Text, x32 y148 w75 h16, [ %key_scar% ] Flatline
 Gui Add, Text, x32 y164 w56 h16, [ %key_ump% ] R45
 Gui Add, Text, x32 y180 w89 h16, [ %key_groza% ] Alternator
 Gui Add, Text, x32 y196 w76 h16, [ %key_glock% ] P2020
-Gui Add, Text, x32 y212 w158 h16, [ %key_peacekeeper% ] Peacekeeper Glitch
+Gui Add, Text, x32 y212 w158 h16, [ %key_lstar% ] lstar
 Gui Add, Text, x32 y228 w158 h16, [ %key_m249% ] Havoc
 Gui Add, Text, x32 y244 w158 h16, [ %key_tgun% ] Devotion
 Gui Add, Text, x32 y266 w109 h16, [ %key_RCoff% ] Disable Script
@@ -95,7 +95,7 @@ SettingsGUI:
 	Gui Add, Text, x80 y194 w60 h18, R45
 	Gui Add, Text, x80 y216 w60 h18, Alternator
 	Gui Add, Text, x80 y238 w60 h18, P2020
-	Gui Add, Text, x80 y260 w102 h18, Peacekeeper Glitch
+	Gui Add, Text, x80 y260 w102 h18, lstar
 	Gui Add, Text, x80 y282 w102 h18, Havoc
 	Gui Add, Text, x80 y304 w102 h18, Devotion
 	Gui Add, Text, x80 y326 w102 h18, Disable Script
@@ -113,7 +113,7 @@ SettingsGUI:
 	Gui Add, Edit, x32 y192 w40 h18 vkey_ump, %key_ump%
 	Gui Add, Edit, x32 y214 w40 h18 vkey_groza, %key_groza%
 	Gui Add, Edit, x32 y236 w40 h18 vkey_glock, %key_glock%
-	Gui Add, Edit, x32 y258 w40 h18 vkey_peacekeeper, %key_peacekeeper%
+	Gui Add, Edit, x32 y258 w40 h18 vkey_lstar, %key_lstar%
 	Gui Add, Edit, x32 y280 w40 h18 vkey_m249, %key_m249%
 	Gui Add, Edit, x32 y302 w40 h18 vkey_tgun, %key_tgun%
 	Gui Add, Edit, x32 y324 w40 h18 vrCoff, %key_rCoff%
@@ -207,7 +207,7 @@ btSave:
 	IniWrite, "%key_ump%", settings.ini, keybinds, key_r45
 	IniWrite, "%key_groza%", settings.ini, keybinds, key_alternator
 	IniWrite, "%key_glock%", settings.ini, keybinds, key_p2020
-	IniWrite, "%key_peacekeeper%", settings.ini, keybinds, key_peacekeeper
+	IniWrite, "%key_lstar%", settings.ini, keybinds, key_lstar
 	IniWrite, "%key_m249%", settings.ini, keybinds, key_havoc
 	IniWrite, "%key_tgun%", settings.ini, keybinds, key_devotion
 	IniWrite, "%key_pause%", settings.ini, keybinds, key_pause
@@ -233,7 +233,7 @@ IniRead:
 		IniWrite, "F8", settings.ini, keybinds, key_r45
 		IniWrite, "F9", settings.ini, keybinds, key_alternator
 		IniWrite, "F10", settings.ini, keybinds, key_p2020
-		IniWrite, "F11", settings.ini, keybinds, key_peacekeeper
+		IniWrite, "F11", settings.ini, keybinds, key_lstar
 		IniWrite, "F12", settings.ini, keybinds, key_havoc
 		IniWrite, "", settings.ini, keybinds, key_devotion
 		IniWrite, "9", settings.ini, keybinds, key_disable
@@ -277,7 +277,7 @@ IniRead:
 		IniRead, key_ump, settings.ini, keybinds, key_r45
 		IniRead, key_groza, settings.ini, keybinds, key_alternator
 		IniRead, key_glock, settings.ini, keybinds, key_p2020
-		IniRead, key_peacekeeper, settings.ini, keybinds, key_peacekeeper
+		IniRead, key_lstar, settings.ini, keybinds, key_lstar
 		IniRead, key_m249, settings.ini, keybinds, key_havoc
 		IniRead, key_tgun, settings.ini, keybinds, key_devotion
 		IniRead, key_pause, settings.ini, keybinds, key_pause
