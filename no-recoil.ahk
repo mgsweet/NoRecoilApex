@@ -2815,55 +2815,55 @@ else if Tgun {						;DEVOTION RECOIL (by golfhjhj - 06/05/2019)
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", 0*modifier, "UInt", 16*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", 0*modifier, "UInt", 20*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", 0*modifier, "UInt", 16*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", 0*modifier, "UInt", 20*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -1*modifier, "UInt", 16*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", -1*modifier, "UInt", 20*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -1*modifier, "UInt", 16*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", -1*modifier, "UInt", 20*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -2*modifier, "UInt", 16*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", -2*modifier, "UInt", 20*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", 4*modifier, "UInt", 16*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", 4*modifier, "UInt", 20*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", 10*modifier, "UInt", 16*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", 10*modifier, "UInt", 6*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 10, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", 5*modifier, "UInt", 16*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", 5*modifier, "UInt", 6*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", 5*modifier, "UInt", 16*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", 5*modifier, "UInt", 6*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
@@ -2887,85 +2887,55 @@ else if Tgun {						;DEVOTION RECOIL (by golfhjhj - 06/05/2019)
 			DllCall("mouse_event", uint, 4, int, 0, int, 50, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", 8*modifier, "UInt", 6*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", 8*modifier, "UInt", 4*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 100, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", 5*modifier, "UInt", 6*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", 5*modifier, "UInt", 4*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 8, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", 8*modifier, "UInt", 6*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", 8*modifier, "UInt", 4*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 5, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", 8*modifier, "UInt", 6*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", -10*modifier, "UInt", 4*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 8, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", 1*modifier, "UInt", 6*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", -10*modifier, "UInt", 4*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
-			DllCall("mouse_event", uint, 4, int, 0, int, -2, uint, 0, int, 0)
+			DllCall("mouse_event", uint, 4, int, 0, int, -10, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -5*modifier, "UInt", 6*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", -10*modifier, "UInt", 4*modifier)
+		sleep 100
+		if !GetKeyState(key_shoot) {
+			DllCall("mouse_event", uint, 4, int, 0, int, -10, uint, 0, int, 0)
+			break
+		}
+		DllCall("mouse_event", "UInt", 0x01, "UInt", -10*modifier, "UInt", 4*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, -8, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -10*modifier, "UInt", 6*modifier)
-		sleep 100
-		if !GetKeyState(key_shoot) {
-			DllCall("mouse_event", uint, 4, int, 0, int, -8, uint, 0, int, 0)
-			break
-		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -10*modifier, "UInt", 6*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", -10*modifier, "UInt", 4*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, -10, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -8*modifier, "UInt", 6*modifier)
-		sleep 100
-		if !GetKeyState(key_shoot) {
-			DllCall("mouse_event", uint, 4, int, 0, int, -10, uint, 0, int, 0)
-			break
-		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -10*modifier, "UInt", 6*modifier)
-		sleep 100
-		if !GetKeyState(key_shoot) {
-			DllCall("mouse_event", uint, 4, int, 0, int, -10, uint, 0, int, 0)
-			break
-		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -10*modifier, "UInt", 6*modifier)
-		sleep 100
-		if !GetKeyState(key_shoot) {
-			DllCall("mouse_event", uint, 4, int, 0, int, -10, uint, 0, int, 0)
-			break
-		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -10*modifier, "UInt", 6*modifier)
-		sleep 100
-		if !GetKeyState(key_shoot) {
-			DllCall("mouse_event", uint, 4, int, 0, int, -8, uint, 0, int, 0)
-			break
-		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -10*modifier, "UInt", 6*modifier)
-		sleep 100
-		if !GetKeyState(key_shoot) {
-			DllCall("mouse_event", uint, 4, int, 0, int, -10, uint, 0, int, 0)
-			break
-		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", 0*modifier, "UInt", 6*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", 0*modifier, "UInt", 4*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
@@ -3007,81 +2977,68 @@ else if Tgun {						;DEVOTION RECOIL (by golfhjhj - 06/05/2019)
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 6*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 2*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 6*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 2*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 6*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 2*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 6*modifier)
-		sleep 100
-		if !GetKeyState(key_shoot)
-{
-			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
-			break
-		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 6*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 2*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 6*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 2*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 6*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 2*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 6*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 2*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 6*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 2*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 6*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 2*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 			break
 		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 6*modifier)
-		sleep 100
-		if !GetKeyState(key_shoot) {
-			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
-			break
-		}
-		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 6*modifier)
+		DllCall("mouse_event", "UInt", 0x01, "UInt", -4*modifier, "UInt", 2*modifier)
 		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 			break
 		}
 		DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
-		sleep 1000
+		sleep 100
 		if !GetKeyState(key_shoot) {
 			DllCall("mouse_event", uint, 4, int, 0, int, 0, uint, 0, int, 0)
 			break
